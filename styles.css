@@ -1,0 +1,553 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 12px 24px;
+    background-color: #0a0f2c;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav img {
+    width: 80px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin-left: auto;
+}
+
+nav ul li a {
+    padding: 8px 16px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    background: transparent;
+    color: #ffffff;
+    text-decoration: none;
+    transition: border-color 0.25s ease;
+    
+}
+
+nav ul li a:hover {
+    border-bottom-color: #C9A84C;
+}
+
+nav ul li a.active {
+    border-bottom-color: #C9A84C;
+    color: #ffffff;
+}
+
+.hero {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 100px 80px;
+    height: 100vh;
+    background-image: url("https://i.ibb.co/mVKzn9HR/pexels-tiger-lily-7108700.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero button {
+    margin-top: 20px;
+    background-color: #C9A84C;
+    color: black;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.learn-more {
+    background-color: #C9A84C;
+    color: black;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.hero p {
+    margin-bottom: 15px;
+    color: #0a0f2c;
+    font-weight: bold;
+}
+
+.hero p em {
+    font-style: italic;
+    color:#555;
+}
+
+.hero-content {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+    color: #0a0f2c;
+}
+
+.about {
+    padding: 80px;
+    margin: 30px;
+    background-color: #ffffff;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 42px;
+    color:#0a0f2c;
+    margin-bottom: 40px;
+}
+
+.about-line {
+    width: 100px;
+    border: none;
+    border-top: 4px solid #C9A84C;
+    margin: 15px auto 40px;
+}
+
+.about h3 {
+    color: #0a0f2c;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.about h4 {
+    color: #0a0f2c;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.about p {
+    color: #444;
+    line-height: 1.8;
+    font-size: 18px;
+    margin: 30px;
+    width: 800px;
+    text-align: left;
+}
+
+.about ul li {
+    color: #444;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.services {
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    width: 30%;
+    text-align: center;
+}
+
+.service-card img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.service-card ul, .service-card p {
+    text-align: left;
+    color: #444;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.why-choose-us {
+    text-align: center;
+    background-color: #f7f5ef;
+    padding: 70px 10%;
+}
+
+.why-choose-us h3 {
+    color: #0a0f2c;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.why-choose-us ul li {
+    color: #444;
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: auto;
+    text-align: left;
+}
+
+.why-choose-us p {
+    color: #444;
+    line-height: 1.8;
+    font-size: 18px;
+    text-align: left;
+}
+
+.careers {
+    text-align: center;
+    background-color: #0a0f2c;
+    padding: 60px 20px;
+    color: white;
+}
+
+.careers h2 {
+    margin-bottom: 30px;
+}
+
+.careers h3 {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.careers p {
+    color: lightgray;
+    line-height: 1.8;
+    font-size: 18px;
+    text-align: center;
+}
+
+.careers ul {
+    margin-bottom: 30px;
+}
+
+.careers ul li {
+    color: lightgray;
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: auto;
+    text-align: left;
+}
+
+.contact {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 60px 80px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 40px 0;
+}
+
+.contact-info {
+    text-align: left;
+    width: 40%;
+}
+
+.contact-form-container {
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 300px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    width: fit-content;
+    padding: 12px 25px;
+    color: #C9A84C;
+}
+
+footer {
+    background-color: #0a0f2c;
+    color: #ffffff;
+    padding: 50px 80px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footer-brand, .footer-links, .footer-contact {
+    width: 30%;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer-links a:hover {
+    color: #C9A84C;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #C9A84C;
+}
+
+.footer p, .footer a {
+    font-size: 16px;
+}
+.menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+    section {
+        padding: 50px 20px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    .hero {
+        padding: 100px 20px 50px;
+        height: auto;
+        min-height: 100vh;
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+    }
+    .hero-content {
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .hero h1 {
+        font-size: 32px;
+    }
+    .hero p {
+        font-size: 16px;
+    }
+    .about {
+        padding: 50px 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .about h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+    .about h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .about p {
+        font-size: 16px;
+        line-height: 1.7;
+        text-align: left;
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        box-sizing: border-box;
+    }
+    .about ul {
+        padding-left: 20px;
+        text-align: left;
+    }
+     footer {
+        padding: 40px 20px 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-brand,
+    .footer-links,
+    .footer-contact {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        margin-top: 20px;
+    }
+    .services-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.service-card {
+    width: 100%;
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+}
+
+.service-card ul,
+.service-card p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.why-choose-us {
+    padding: 50px 20px;
+}
+
+.why-choose-us h3 {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+.why-choose-us p,
+.why-choose-us ul li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.careers {
+    padding: 50px 20px;
+}
+
+.careers h2 {
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.careers h3 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.careers p,
+.careers ul li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.contact {
+    padding: 50px 20px;
+}
+
+.contact-container {
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px 0;
+}
+
+.contact-info {
+    width: 100%;
+    text-align: center;
+}
+
+.contact-form-container {
+    width: 100%;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    font-size: 16px;
+}
+
+.contact-form button {
+    align-self: center;
+}
+.menu-toggle {
+    display: block;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.hero button,
+.contact-form button {
+    font-size: 16px;
+    padding: 12px 20px;
+}
+nav ul.active {
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    position: relative;
+}
+
+nav ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    background-color: #0a0f2c;
+    padding: 20px;
+    gap: 15px;
+}
+
+nav ul.active {
+    display: flex;
+}
+.hero button {
+    font-size: 16px;
+    padding: 12px 20px;
+}
+
+.contact-form button {
+    font-size: 16px;
+    padding: 12px 20px;
+}
+.hero button,
+.contact-form button {
+    font-size: 16px;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+}
+
+
